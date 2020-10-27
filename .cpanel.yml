@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ixd1734/public_html/ISD1-Github-Test/
+    - export DEPLOYPATH=/home/ixd1734/public_html/git-workflow/
     - /bin/cp * $DEPLOYPATH
