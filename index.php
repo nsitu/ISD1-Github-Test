@@ -8,7 +8,7 @@
 </head>
 <body>
   <h1>Terrible Films</h1>
-  <p>Some Really bad movies from a while back.......</p>
+  <p>Some Really bad movies from a while back..........</p>
 
 <?php
 
