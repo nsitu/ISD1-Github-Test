@@ -1,4 +1,5 @@
 ---
 deployment:
   tasks:
-    - cp -R * /home/ixd1734/public_html/ISD1-Github-Test/
+    - export DEPLOYPATH=/home/ixd1734/public_html/ISD1-Github-Test/
+    - /bin/cp * $DEPLOYPATH
