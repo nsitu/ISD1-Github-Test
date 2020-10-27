@@ -1,4 +1,4 @@
 ---
 deployment:
   tasks:
-    - /bin/cp -R * /home/ixd1734/public_html/deploy-test/
+    - cp -R * /home/ixd1734/public_html/ISD1-Github-Test/
