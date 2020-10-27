@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+    - /bin/cp -R * /home/ixd1734/public_html/deploy-test/
