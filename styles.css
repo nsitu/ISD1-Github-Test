@@ -1,0 +1,31 @@
+body{
+  font-family: sans-serif;
+  text-align: center;
+}
+h1, p{
+  color: #888;
+  margin: 20px auto;
+  width: 80vw;
+}
+.country{
+  width: 80vw;
+  background: #bbb;
+  border-radius: 20px;
+  margin: 10px auto;
+  display: flex;
+  text-align: right;
+}
+.indicator{
+  border-radius: 20px;
+  line-height: 20px;
+  background: green;
+  color: white;
+  padding: 15px;
+  text-align: left;
+}
+.name{
+  line-height: 20px;
+  padding: 15px;
+  flex-grow: 1;
+  flex-basis: 50%;
+}
