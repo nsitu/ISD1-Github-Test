@@ -3,7 +3,7 @@
 $hostname = "localhost";
 $username = "ixd1734_world";
 $password = "uZPM[7vbqjk5";
-$database = "ixd1734_imdb";
+$database = "ixd1734_airline";
 
 // Create connection
 $db = new mysqli($hostname, $username, $password, $database);
