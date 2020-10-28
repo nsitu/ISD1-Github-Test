@@ -15,6 +15,8 @@
 $sql = "SELECT * FROM `movies` WHERE year = 1976 and rank < 4 ORDER BY `movies`.`rank` ASC LIMIT 10";
     
     
+$db->query("SET SESSION MAX_EXECUTION_TIME=1000;");
+    
     $sql = "SELECT OriginState, AirTime, DestCityName 
 FROM `On_Time_On_Time_Performance_2016_1` 
 WHERE (OriginState, AirTime) 
