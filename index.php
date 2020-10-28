@@ -30,7 +30,7 @@ if ($result->num_rows > 0) {
     $name = $row["OriginState"]." ".$row["DestCityName"];
     echo
     '<div class="country">'.
-      '<div class="indicator" style="flex-basis: '.($exp*10).'%" >'.
+      '<div class="indicator" style="flex-basis: '.($exp/10).'%" >'.
             $exp.
       '</div>'.
       '<div class="name">'.$name.'</div>'.
